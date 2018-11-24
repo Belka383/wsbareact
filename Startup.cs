@@ -60,7 +60,7 @@ namespace wsbareact
 
                 if (env.IsDevelopment())
                 {
-                    spa.UseProxyToSpaDevelopmentServer("http://localhost:3000");
+                    spa.UseProxyToSpaDevelopmentServer("http://localhost:49917");
                     //spa.UseReactDevelopmentServer(npmScript: "start");
                 }
             });
